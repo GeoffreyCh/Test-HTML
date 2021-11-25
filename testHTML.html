@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours HTML</title>
+</head>
+
+<body>
+    <section>
+        <div>
+            <h1>Texte - H1</h1>
+            <p>Texte basique</p>
+            <em>Texte en italique</em>
+            <strong>Texte en gras</strong>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, aperiam ad vitae perspiciatis voluptates corrupti, sequi, itaque amet quod ipsam deleniti. Temporibus suscipit aliquid rem quod? Asperiores a minus ex!</p>
+        </div>
+        <div>
+            <h2>Photos - H2</h2>
+            <img src="bg.jpg" height="200"
+            alt="image-paysage">
+        </div>
+        <div>
+            <h3>Listes - H3</h3>
+            <ul>
+                <li>UL = Unordered List</li>
+                <li>UL = Unordered List</li>
+                <li>UL = Unordered List</li>
+            </ul>
+            <ol>
+                <li>OL = Ordered List</li>
+                <li>OL = Ordered List</li>
+                <li>OL = Ordered List</li>
+            </ol>
+        </div>
+        <div>
+            <h4>Tableaux - H4</h4>
+            <table border="1" width="50%"> 
+                <!-- Legende -->
+                <caption>Populations d'Europe</caption>
+                <!-- En tête -->
+                <thead>
+                    <tr>
+                        <th>Pays</th>
+                        <th>Population</th>
+                    </tr>   
+                </thead>
+                <!-- Corps du tableau -->
+                <tbody>
+                    <tr>
+                        <td>France</td>
+                        <td>66M</td>
+                    </tr>
+                    <tr>
+                        <td>Allemagne</td>
+                        <td>82M</td>
+                    </tr>
+                    <tr>
+                        <td>Espagne</td>
+                        <td>47M</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h5>Liens - H5</h5>
+            <a href="https://google.fr/">Google</a>
+        </div>
+        <div>
+            <h6>Video - H6</h6>
+            <video src="video-sunrise.mp4" height="300" autoplay loop muted></video>
+        </div>
+    </section>
+    <br>
+    <!-- Formulaire -->
+    <section>
+        <h2>Formulaire</h2>
+        <form action="/action.php" method="post">
+            <label for="name">Nom </label>
+            <input id="name" type="text" placeholder="Entrez votre nom">
+            <br>
+            <label for="age">Age</label>
+            <input id="age" type="number" min="0" max="99" 
+            step="1" value="18">
+        </form>
+    </section>
+</body>
+</html>
